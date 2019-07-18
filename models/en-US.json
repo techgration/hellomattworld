@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "hello matt",
+          "intents": [
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": []
+              },
+              {
+                "name": "HelloWorldIntent",
+                "slots": [],
+                "samples": [
+                    "hello",
+                    "how is matt",
+                    "say hi matt",
+                    "say hi",
+                    "hi",
+                    "say hello matt world",
+                    "say hello matt",
+                   
+                ]
+            },
+            {
+                "name": "HelloWorldIntent",
+                "slots": [],
+                "samples": [
+                    "Matts favorite color",
+                    "What is Matts favorite color",
+                    "Favorite color"
+                ]
+            },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              }
+          ],
+          "types": []
+      }
+  }
+}
